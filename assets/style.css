@@ -12,3 +12,9 @@ body {
     background-color: #f5f5dc;
     color: #3a3a3a;
 }
+
+h1 h2 {
+    font-family: kalam, sans-serif;
+    text-transform: uppercase;
+    color: #403237;
+}
