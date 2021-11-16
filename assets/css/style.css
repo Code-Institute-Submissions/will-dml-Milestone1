@@ -28,6 +28,7 @@ h1, h2 {
 
 #navigation {
     font-size: 130%;
+    font-weight: bold;
 }
 
 #logo, #navigation {
