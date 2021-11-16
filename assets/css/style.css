@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    background-color:#E8F2C2;
+    color: #403237;
+}
+ /* headings and logo */
+
+h1, h2 {
+    font-family: Kaushan Script, cursive;
+    text-transform: uppercase;
+    color: #403237;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 30px;
+}
+
+#navigation {
+    font-size: 130%;
+}
+
+#logo, #navigation {
+    line-height: 75px;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#navigation a {
+    color: #403237;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    border-block: 1px solid #BAD977;
+}
+
+/*hero image*/
+
+#hero-image {
+    background: url(..assets/images/pexels-james-wheeler-1486976.jpg)
+    
+}
