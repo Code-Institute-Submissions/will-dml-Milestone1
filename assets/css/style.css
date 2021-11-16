@@ -166,14 +166,37 @@ h1, h2 {
     
 }
 
-.perma-describe {
-    font-size: 100%;
+#perma-describe>p {
+    font-size: 120%;
     font-weight: bold;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+#perma-describe {
+    background-color: #bad977;
 
 }
+
+#our-workshop {
+    background-color: #bad977;
+
+}
+
+#our-workshop>p {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
 
 #title2 {
     text-align: center;
@@ -185,4 +208,35 @@ h1, h2 {
     text-align: center;
     margin: 40px 0;
     font-size: 200%;
+}
+
+/*form styling*/
+
+#contact {
+    background-color: #BAD977;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 40%;
+}
+
+/*footer*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #403237;
 }
