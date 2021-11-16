@@ -52,6 +52,29 @@ h1, h2 {
 /*hero image*/
 
 #hero-image {
-    background: url(..assets/images/pexels-james-wheeler-1486976.jpg)
+    background: url(../images/pexels-james-wheeler-1486976-resized.jpg) no-repeat center center;
+    height: 500px;
+    width: 100%;
     
+    /*zoom effect animation*/
+    animation-name: hero-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: backwards;
+}
+    @keyframes hero-zoom {
+        from{
+            transform: scale(3);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#cover-text {
+
 }
