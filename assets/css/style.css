@@ -184,7 +184,7 @@ h1, h2 {
     width: 700px;
     right: 40px;
     display: inline-block;
-    background-color: #bad97746;
+    background-color: #bad97781;
     border-radius: 75%;
     }
 
@@ -228,11 +228,34 @@ h1, h2 {
 
 #title4 {
     text-align: center;
-    margin: 50px 0;
+    margin: 150px 0 50px 0;
+    
     font-size: 200%;
-    position: relative;
 }
 
+#left-heading{
+    font-family: Kaushan Script, cursive;
+    font-size: 120%;
+    float: left;
+    line-height: 20px;
+    margin-bottom: 50px; 
+    margin-left: 300px;
+}
+
+#right-heading {
+        font-family: Kaushan Script, cursive;
+        font-size: 120%;
+        float: right;
+        line-height: 20px;
+        margin-bottom: 50px; 
+        margin-right: 400px;
+}
+
+#map {
+    position: relative;
+    float: right;
+    margin: 40px;
+}
 
 
 
