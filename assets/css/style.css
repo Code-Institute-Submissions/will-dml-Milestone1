@@ -183,7 +183,9 @@ h1, h2 {
     position: absolute;
     width: 700px;
     right: 40px;
-    background-color: #bad97781;
+    display: inline-block;
+    background-color: #bad97746;
+    border-radius: 75%;
     }
 
 #cabbage-pic {
@@ -202,13 +204,33 @@ h1, h2 {
 
 
 #garden-work {
-
+    float: right;
+    margin: 40px 40px;
+    display: inline;
 }
 
 
 #our-workshop {
-    
+    font-size: 140%;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 80px;
+    width: 400px;
+    left: 40px;
+    top: 40px;
+    background-color: #bad97746;
+    display: inline-block;
+    border-radius: 75%;
+    }
 
+/*Events*/
+
+#title4 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 200%;
+    position: relative;
 }
 
 
