@@ -24,6 +24,8 @@ h1, h2 {
     float: left;
     font-size: 300%;
     margin-left: 30px;
+    background-color: #bad97746;
+    border-radius: 100%;
 }
 
 #navigation {
@@ -96,6 +98,12 @@ h1, h2 {
 }
 
 /*About us*/
+
+#about-us {
+    background-color: #bad97746;
+    border-radius: 100%;
+}
+
 #title1 {
     text-align: center;
     margin: 50px 0;
@@ -184,7 +192,7 @@ h1, h2 {
     width: 700px;
     right: 40px;
     display: inline-block;
-    background-color: #bad97781;
+    background-color: #bad97746;
     border-radius: 75%;
     }
 
@@ -225,6 +233,9 @@ h1, h2 {
     }
 
 /*Events*/
+
+#events {
+}
 
 #title4 {
     text-align: center;
