@@ -98,7 +98,7 @@ h1, h2 {
 /*About us*/
 #title1 {
     text-align: center;
-    margin: 20px 0;
+    margin: 50px 0;
     font-size: 200%;
 }
 
@@ -159,56 +159,72 @@ h1, h2 {
 .profiledescribe {
     font-size: 100%;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     width: 400px;
     padding-top: 10px;
     padding-bottom: 40px;
+
     
 }
-
-#perma-describe>p {
-    font-size: 120%;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    }
-
-#perma-describe {
-    background-color: #bad977;
-
-}
-
-#our-workshop {
-    background-color: #bad977;
-
-}
-
-#our-workshop>p {
-    font-size: 120%;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
+/*What is permaculture*/
 
 #title2 {
     text-align: center;
-    margin: 40px 0;
+    margin: 50px 0;
     font-size: 200%;
 }
 
+
+#perma-describe {
+    font-size: 140%;
+    font-weight: bold;
+    text-align: left;
+    margin: 40px 40px;
+    position: absolute;
+    width: 700px;
+    right: 40px;
+    background-color: #bad97781;
+    }
+
+#cabbage-pic {
+    margin-left: 40px;
+    margin-right: 40px;
+    right: 40px;
+}
+
+/*our workshop*/
+
 #title3 {
     text-align: center;
-    margin: 40px 0;
+    margin: 50px 0;
     font-size: 200%;
 }
+
+
+#garden-work {
+    right: 40px;
+    margin: 40px 40px;
+    position: absolute;
+    float: right;
+
+}
+
+
+#our-workshop {
+    font-size: 140%;
+    font-weight: bold;
+    text-align: left;
+    margin: 40px 40px;
+    width: 400px;
+    left: 40px;
+    background-color: #bad97781;
+    }
+
+}
+
+
+
+
 
 /*form styling*/
 
