@@ -29,6 +29,7 @@ h1, h2 {
 }
 
 #navigation {
+    font-family: Kaushan Script, cursive;
     font-size: 130%;
     font-weight: bold;
 }
@@ -309,14 +310,18 @@ input {
     color: #BAD977;
     font-family: Kaushan Script, cursive;
     font-weight: bold;
+    font-size: 70%;
+    padding: 20px 20pxS;
     
 }
+
 
 /*footer*/
 
 footer {
     height: 150px;
-    margin: 500px;
+    margin-top: 200px;
+    
 }
 
 .social-networks {
