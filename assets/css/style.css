@@ -100,10 +100,6 @@ h1, h2 {
 
 /*About us*/
 
-#about-us {
-    background-color: #bad97746;
-    border-radius: 100%;
-}
 
 #title1 {
     text-align: center;
@@ -117,9 +113,8 @@ h1, h2 {
     border-style: solid;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
-    float: left;
-    margin-left: 350px;
+    position: absolute;
+    left: 400px;
 
 }
 
@@ -135,9 +130,9 @@ h1, h2 {
     border-style: solid;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
-    float: right;
-    margin-right: 350px;
+    position: absolute;
+    right: 350px;
+    top: 850px;
 
 }
 
@@ -153,9 +148,9 @@ h1, h2 {
     border-style: solid;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
-    float: left;
-    margin-left: 350px;
+    position: absolute;
+    left: 400px;
+    top: 1000px;
 
 }
 
@@ -165,23 +160,41 @@ h1, h2 {
     border-radius: 50%;
 }
 
-.profiledescribe {
+#profiledescribe {
     font-size: 110%;
     font-weight: bold;
     text-align: left;
     width: 400px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #bad97746;
+    border-radius: 50%;
+    position: absolute;
+    left: 580px;
+    top: 670px;
+   }
+
+#profiledescribe>p {
+    padding: 20px;
 }
 
+
+
+
+
 /*What is permaculture*/
+
+#what-perma {
+    margin-top: 550px;
+}
 
 #title2 {
     text-align: center;
     margin: 50px 0;
     font-size: 200%;
 }
+
+
 
 
 #perma-describe {
@@ -296,7 +309,7 @@ h1, h2 {
     padding-top: 40px;
 }
 
-#form-section>p {
+form>p {
     padding: 20px 20px;
 }
 
