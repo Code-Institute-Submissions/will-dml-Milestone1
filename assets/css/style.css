@@ -236,11 +236,15 @@ h1, h2 {
 
 #form-section-background {
     background: url(../images/pexels-pixabay-235767\(1\).jpg);
-    height: 500px;
+    height: 600px;
     width: 100%;
+    position: relative;
+    top: 200px;
+
 }
 
 #form-section {
+    
 
 }
 
