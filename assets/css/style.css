@@ -232,59 +232,23 @@ h1, h2 {
     border-radius: 75%;
     }
 
-/*Events*/
+/*form*/
 
-#events {
+#form-section-background {
+    background: url(../images/pexels-pixabay-235767\(1\).jpg);
+    height: 500px;
+    width: 100%;
 }
 
-#title4 {
-    text-align: center;
-    margin: 150px 0 50px 0;
-    
-    font-size: 200%;
-}
+#form-section {
 
-#left-heading{
-    font-family: Kaushan Script, cursive;
-    font-size: 120%;
-    float: left;
-    line-height: 20px;
-    margin-bottom: 50px; 
-    margin-left: 300px;
-}
-
-#right-heading {
-        font-family: Kaushan Script, cursive;
-        font-size: 120%;
-        float: right;
-        line-height: 20px;
-        margin-bottom: 50px; 
-        margin-right: 400px;
-}
-
-#map {
-    position: relative;
-    float: right;
-    margin: 40px;
-}
-
-
-
-
-/*form styling*/
-
-#contact {
-    background-color: #BAD977;
-    height: 250px;
-    width: 300px;
-    position: absolute;
-    left: 40%;
 }
 
 /*footer*/
 
 footer {
     height: 150px;
+    margin: 500px;
 }
 
 .social-networks {
