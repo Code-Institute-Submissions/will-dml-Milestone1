@@ -128,7 +128,7 @@ h1, h2 {
 
 
 .profile-text {
-    font-size: 110%;
+    font-size: 140%;
     font-weight: bold;
     text-align: center;
     max-width: 300px;
@@ -140,7 +140,11 @@ h1, h2 {
 /*What is permaculture*/
 
 #what-perma {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10rem;
+    padding: 20px 20px;
 }
 
 #title2 {
@@ -174,6 +178,10 @@ h1, h2 {
 
 /*our workshop*/
 
+#workshop-txt {
+    
+}
+
 #title3 {
     text-align: center;
     margin: 50px 0;
@@ -192,13 +200,7 @@ h1, h2 {
     font-size: 140%;
     font-weight: bold;
     text-align: left;
-    margin-left: 40px;
-    margin-top: 80px;
-    width: 700px;
-    left: 40px;
-    top: 40px;
     background-color: #bad97746;
-    display: inline-block;
     border-radius: 75%;
     }
 

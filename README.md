@@ -1,9 +1,9 @@
-Perma-tribe
+<h1>Perma-tribe</h1>
 
-Perma-Tribe is a wesite for all permaculture lovers that want to learn more about it but also beginners that would like to understand the core concept. They can decide to participate into some workshop or just see what the others do.
+Perma-Tribe is a wesite for all permaculture lovers that want to learn more about it but also beginners that would like to understand the core concept. They can decide to participate into some workshop or just see what the other people do.
 
-Features:
-[]Navigation Bar
+<h2>Features:</h2>
+Navigation Bar
 -Features an easy navigation to the different sections of the website.
 
 -The first view on the site display an hero-image that represent the abundance of food that someone could get from following the permaculture principles, with a quote that qualify it.
