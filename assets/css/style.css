@@ -224,7 +224,7 @@ h1, h2 {
 
 #form-block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     margin-top: 40px;
     

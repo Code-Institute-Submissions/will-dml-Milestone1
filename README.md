@@ -19,18 +19,23 @@ Navigation Bar
 
 -The footer section includes links to social medias where the user can also get to know more about the members this association.
 
-Testing
+<h2>Responsivity</h2>
+<img src="./assets/images/amiresponsive.jpg" alt="screenshot_amiresponsive">
+
+
+
+<h2>Testing</h2>
 -HTML
  .No errors were returned when passing through the official W3C validator
 
  -CSS
  .No errors were found when passing through the official (Jigsaw) validator
 
- Unfixed Bugs
+ <h2>Unfixed Bugs</h2>
 
- The website is unfortunatly not responsive due to a lack of knowledge from the developer.
+ The website is unfortunately not responsive due to a lack of time and skills from the developer.
 
- Deployment
+ <h2>Deployment</h2>
 
 
     The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -38,7 +43,7 @@ Testing
         From the source section drop-down menu, select the Master Branch
         Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://8000-plum-ladybug-acxcifeb.ws-eu18.gitpod.io/#title1
+The live link can be found here - https://will-dml.github.io/Milestone1/
 
 Credit
 
