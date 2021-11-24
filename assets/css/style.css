@@ -161,10 +161,8 @@ h1, h2 {
     font-weight: bold;
     text-align: left;
     margin: 40px 40px;
-    width: 700px;
     background-color: #bad97746;
     border-radius: 75%;
-    float: right;
     }
 
     #perma-describe>p {
@@ -209,6 +207,10 @@ h1, h2 {
     background-color: #bad97746;
     border-radius: 75%;
     }
+
+#our-workshop > p {
+    padding: 5px;
+}
 
 /*form*/
 
@@ -286,7 +288,7 @@ input {
     font-family: Kaushan Script, cursive;
     font-weight: bold;
     font-size: 70%;
-    padding: 20px 20pxS;
+    padding: 20px 20px;
     
 }
 
