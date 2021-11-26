@@ -60,6 +60,7 @@ h1, h2 {
     background: url(../images/pexels-james-wheeler-1486976-resized.jpg) no-repeat center center;
     height: 500px;
     width: 100%;
+    max-width: 100%;
     
     /*zoom effect animation*/
     animation-name: hero-zoom;
@@ -132,6 +133,8 @@ h1, h2 {
     font-weight: bold;
     text-align: center;
     max-width: 300px;
+    background-color: #bad97746;
+    border-radius: 75%;
   }
 
 
@@ -172,6 +175,7 @@ h1, h2 {
 #cabbage-pic {
     margin-left: 40px;
     margin-right: 40px;
+    max-width: 100%;
 }
 
 /*our workshop*/
@@ -197,6 +201,7 @@ h1, h2 {
     float: right;
     margin: 40px 40px;
     display: inline;
+    max-width: 100%;
 }
 
 
@@ -224,7 +229,7 @@ h1, h2 {
 
 #form-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     margin-top: 40px;
     
@@ -236,28 +241,25 @@ h1, h2 {
     color: #BAD977;
     font-weight: bold;
     font-size: 160%;
-    width: 30%;
-    height: 30%;
+    max-width: 40%;
+    max-height: 30%;
     text-align: center;
-    margin-top: 5vw;
-    margin-left: 20vw;
-    margin-right: 50px;
+    float: right;
     
 }
 
 #aside-form>p {
     padding: 20px 20px;
+    margin: 40px 10px;
 }
 
 #form-section {
     background-color: #BAD977;
     font-weight: bold;
     font-size: 140%;
-    width: 30%;
-    height: 30%;
     text-align: center;
-    margin-top: 5vw;
-    margin-right: 20vw;
+    
+
     
     
 
